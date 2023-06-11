@@ -32,14 +32,18 @@
 
         <div class="container-cart-products hidden-cart">
           <div class="cart-product">
-            <div class="info-cart-product"></div>
+            <div class="info-cart-product">
+              <span class="cantidad-producto-carrito">1</span>
+              <p class="titulo-producto-carrito">Zapatos Nike</p>
+              <span class="precio-producto-carrito">$80</span>
+            </div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-6 h-6"
+              class="icon-close"
             >
               <path
                 stroke-linecap="round"
@@ -48,14 +52,19 @@
               />
             </svg>
           </div>
+          <div class="cart-total">
+            <h3>Total:</h3>
+            <sapn class="taotal-pagar">$200</sapn>
+          </div>
         </div>
       </div>
     </header>
+
     <div class="container-items">
       <div class="item">
         <figure>
           <img
-            src="https://unsplash.com/es/fotos/4PWmqIUlGFQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
+            src="public/img/domino-164_6wVEHfI-unsplash.jpg"
             alt="producto"
           />
         </figure>
@@ -68,27 +77,38 @@
 
       <div class="item">
         <figure>
-          <img src="image.png" alt="producto" />
+          <img
+            src="public/img/martin-katler-Y4fKN-RlMV4-unsplash.jpg"
+            alt="producto"
+          />
         </figure>
         <div class="info-product">
-          <h2>Mazda 2</h2>
+          <h2>Mazda 3</h2>
           <p class="price">$80</p>
           <button>Añadir al carrito</button>
         </div>
       </div>
+
       <div class="item">
         <figure>
-          <img src="image.png" alt="producto" />
+          <img
+            src="public/img/maksim-larin-NOpsC3nWTzY-unsplash.jpg"
+            alt="producto"
+          />
         </figure>
         <div class="info-product">
-          <h2>Mazda 2</h2>
+          <h2>Mazda 6</h2>
           <p class="price">$80</p>
           <button>Añadir al carrito</button>
         </div>
       </div>
+
       <div class="item">
         <figure>
-          <img src="image.png" alt="producto" />
+          <img
+            src="public/img/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg"
+            alt="producto"
+          />
         </figure>
         <div class="info-product">
           <h2>Mazda 2</h2>
@@ -97,5 +117,6 @@
         </div>
       </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
